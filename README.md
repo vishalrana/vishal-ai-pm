@@ -13,21 +13,17 @@ Currently focused on:
 - AI Product Thinking
 - Real-world Use Case Breakdowns
 
----
+## 🧠 Phase 1: LSP Orchestration Logic
+This project focuses on a dynamic decision engine for an Affordability Suite, routing transactions between direct bank integrations and third-party aggregators.
 
-## 🔥 Current Projects
-### 1. UPI Intelligence System
-Designing a system to detect anomalies, failures, and optimize success rates in UPI transactions.
+### The 7 Decision Variables:
+1. **Availability:** Circuit breaker logic (Fail count >= 2).
+2. **Latency:** CX gatekeeper (<1500ms).
+3. **Native OTP:** Conversion optimization.
+4. **Merchant Cost:** Primary commercial objective (Lowest MDR).
+5. **LSP Profit:** Secondary tie-breaker objective.
+6. **Success Rate Decay:** Predictive weekend load balancing.
+7. **Promotional Arbitrage:** Aggregator-specific deal detection.
 
-### 2. Payment Failure Analyzer
-Analyzing root causes of payment failures and building intelligent retry systems.
-
----
-
-## 📚 Learning Journey (90 Days AI PM)
-- Day 1 — AI Landscape
-
----
-
-## 🎯 My Goal
-To become a top 1% AI Product Manager by building and shipping real-world systems.
+### Strategic Rationale
+We prioritize **Merchant Cost** over **LSP Profit** to drive merchant acquisition and long-term retention. In fintech, volume leads to better data, which eventually leads to stronger negotiation power with banks for higher direct margins.
